@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f5f8;
+    font-family: "Zilla Slab", serif;
+  }
+  
+  h2 {
+    font-family: "Great Vibes", cursive;
+    font-size: 3rem;
+    text-align: center;
+    color: #ff6a23;
+  }
+  .menu {
+    margin-top: 20px;
+  }
+  
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+  }
+  .btn-item {
+    margin-left: 15px;
+    border: black;
+    border-radius: 5px ;
+    border-color: black;
+    background-color: wheat;
+
+
+     background-color: #111827;
+     border: 1px solid transparent;
+     border-radius: .75rem;
+     box-sizing: border-box;
+     color: #FFFFFF;
+     cursor: pointer;
+     flex: 0 0 auto;
+     font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+     font-size: 1.125rem;
+     font-weight: 600;
+     line-height: 1.5rem;
+     padding: .75rem 1.2rem;
+     text-align: center;
+     text-decoration: none #6B7280 solid;
+     text-decoration-thickness: auto;
+     transition-duration: .2s;
+     transition-property: background-color,border-color,color,fill,stroke;
+     transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+     user-select: none;
+     -webkit-user-select: none;
+     touch-action: manipulation;
+     width: auto;
+  }
+
+    .btn-item:hover {
+    background-color: #374151;
+      }
+
+.btn-item:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .btn-item {
+    padding: .75rem 1.5rem;
+  }
+}
+  .photo {
+    width: 30%;
+    height: 175px;
+    object-fit: cover;
+    border: 0.25rem solid black;
+    border-radius: 10px;
+    
+  }
+  .menu-items {
+    display: flex;
+    margin: 20px 0;
+    float:left;
+    width: 50%;  /* divide page into two equal parts */
+  }
+  .menu-info {
+    margin-left: 20px;
+    width: 100%;
+  }
+  .menu-title {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+  }
+  
+  h4 {
+    color: #e00a00;
+    /* display: inline-flex; */
+    /* float: right; */
+    /* justify-content: space-between ; */
+  }
+  
+  .menu-text {
+    padding-top: 20px;
+  }
+
+  /* hr.underline1 {
+    /* width: 50%; */
+    /* border-style: solid; */
+     /* color: black;
+    border: width 2px; ; */
+     
+  /* hr.underline2 {
+    border: 10px solid green;
+  } */
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  } 
